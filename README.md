@@ -1,15 +1,20 @@
-# Unichat Application
+A chat application completely build using node js and react 
 
-![Chat Application](https://i.ibb.co/GJwyy9m/Bv9-Js3-QLOLY-HD.jpg)
+API:
 
-## Introduction
+<i> firebase;
+<ii> chatengine.io;
+<iii> facebook developer;
 
-This is a code repository for the corresponding video tutorial. In this video, we create a full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets.
+Steps to run the code : 
 
-You will learn how to build a react chat app using [https://chatengine.io](https://chatengine.io)
+Clone the repo in your local machine
+[Node js 16.13.1 is mandatory to run this file no versions outside this can be entertained]
 
-Firebase and Chat Engine are greats tools to setup apps fast and easily - great to learn with!
+Run {npm install}
 
-### Bonus - E-mail notifications
+this creates a package-lock.json file and node_modules folder
 
-If you want to upgrade this chat application even further than what is shown in the video, you can add e-mail notifications. More info on https://chatengine.io/docs/email_notifications.
+edit the .env file with your credentials of chatengine.io
+
+deploy using netlify
